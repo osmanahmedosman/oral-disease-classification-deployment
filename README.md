@@ -90,6 +90,13 @@ Fine-tuning MobileNetV2 improved test accuracy by approximately **3.42 percentag
 
 Additional evaluation included classification reports, confusion matrices, per-class F1-scores, and macro-averaged precision, recall, and F1-score.
 
+## Training Notebook
+
+The complete training workflow is available on Kaggle, including data quality analysis, preprocessing, CNN model training, transfer learning, fine-tuning, and model evaluation.
+
+- **Kaggle Notebook:** [Oral Diseases Image Classification](https://www.kaggle.com/code/osmanahmedosman/oral-diseases-image-classification)
+- **Jupyter Notebook Source:** Available in the [`notebooks/`](notebooks/) directory.
+
 ## Web Application
 
 The application is built with **Gradio** and uses the saved Keras model for image classification.
