@@ -94,7 +94,7 @@ def predict(image):
             color = "#D97706"
             status = "Other possible class"
         else:
-            color = "#64748B"
+            color = "#965C1A"
             status = "Lower score"
 
         result_html += f"""
